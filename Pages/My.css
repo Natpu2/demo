@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500&family=Quicksand:wght@500&family=Rajdhani:wght@500&family=Space+Grotesk&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .container-1{
+    box-shadow: 10px 10px 20px 0px rgba(112, 110, 110, 0.75);
+    border: 2px solid rgb(232, 231, 231);
+    height: 560px;
+    width: 492px;
+    margin-left: 34%;
+    margin-top: 5%;
+    border-radius: 10px;
+    
+} */
+
+
+.cta-text-1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700px;
+    font-size: 24px;
+}
+.textpara{
+    margin-left: 24px;
+    margin-top: 24px;
+    margin-right: 24px;
+    font-family: Plus Jakarta Sans;
+}
+.cta-para-1{
+    margin-top: 7px;
+    font-size: 14px;
+    
+}
+
+.cta-text-2{
+    font-size: 32px;
+    font-family: Plus Jakarta Sans;
+}
+
+.logotext{
+    display: flex;
+    margin-left: 24px;
+    margin-top: 30px;
+}
+
+.startxt{
+    display: flex;
+    font-family: Plus Jakarta Sans;
+}
+.cta-tect-3{
+    font-size: 14px;
+    margin-left: 6px;
+    margin-top: 3px;
+    
+}
+
+.textstar{
+    margin-left: 10px;
+    margin-top: 20px;
+    
+}
+
+.line{
+    border: 1px solid rgb(223, 220, 220);
+    margin-top: 34px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+}
+
+.tax{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: Plus Jakarta Sans;
+}
+.totaltax{
+    margin-top: 34px;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-size: 14px;
+}
+
+.promoapply{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 40px;
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+}
+
+.apply{
+    cursor: pointer;
+    font-weight: 700;
+}
+.rentel-price{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 40px;
+    font-family: Plus Jakarta Sans;
+}
+.renteltext{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.overall{
+    font-size: 14px;
+}
+.pricetext{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.overall{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* *************Billing info*************** */
+
+/* .billsection{
+    border: 2px solid black;
+    height: 355px;
+    width: 852px;
+    border-radius: 10px;
+    margin-left: 25%;
+    margin-top:10%;
+} */
+.billsection {
+    border: 2px solid black;
+    height: auto;
+    max-width: 852px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10% auto;
+    padding: 20px;
+}
+
+
+.billstep{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+.cta2-text-1{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Plus Jakarta Sans;
+}
+.cta2-text-2{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    color: rgba(144, 163, 191, 1);
+    font-weight: 500;
+}
+
+.cta2-text-3{
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    margin-top: 24px;
+    color: rgba(144, 163, 191, 1);
+    font-weight: 500;
+
+}
+.input-1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 200%;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.input-2{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+
+.cta2-text-4{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cta2-text-5{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.namenum{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+
+.input-3{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 200%;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.input-4{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+
+.cta2-text-6{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cta2-text-7{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.addresstown{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+
+.nextbtn{
+    border: 2px solid rgba(53, 99, 233, 1);;
+    width: 80px;
+    border-radius: 6px;
+    font-family: Plus Jakarta Sans;
+    cursor: pointer;
+    background-color: rgba(53, 99, 233, 1);
+}
+
+.btn-1{
+    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+.prevbtn{
+    font-family: Plus Jakarta Sans;
+    border: 2px solid rgba(53, 99, 233, 1);
+    width: 80px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(53, 99, 233, 1);
+}
+
+
+/**************** Rinfo *****************/
+.dateset{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+/* .Rinfo{
+    border: 2px solid black;
+    width: 852px;
+    height: 679px;
+    margin-left: 25%;
+    margin-top: 1.5%;
+    border-radius: 10px;
+} */
+.Rinfo {
+    border: 2px solid black;
+    width: 80%;
+    max-width: 852px;
+    height: auto;
+    margin: 1.5% auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Add a media query for smaller screens */
+/* @media screen and (max-width: 600px) {
+    .Rinfo {
+        width: 90%;
+    }
+} */
+
+.radiobtn{
+    margin-top: 30px;
+    margin-left: 24px;
+}
+
+.cta3-text-1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    margin-left: 10px;
+    
+}
+
+.input-8{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.input-9{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.timeinput{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+}
+.time{
+    margin-left: 24px;
+}
+
+.cta3-text-2{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cta3-text-3{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.locationdate{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+.locationdate-1{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+.time{
+    margin-left: 24px;
+    margin-top: 30px;
+}
+.cityinput-1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.cityinput-2{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+}
+.dateinput-1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.dateinput-2{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.timeinput-332{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 350px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+}
+.infonextbtn{
+    border: 2px solid rgba(53, 99, 233, 1);;
+    width: 80px;
+    border-radius: 6px;
+    font-family: Plus Jakarta Sans;
+    cursor: pointer;
+    background-color: rgba(53, 99, 233, 1);
+    margin-top: 10px;
+    margin-left: 85%;
+}
+
+.infobtn-1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/******************* payment *******************/
+
+/* .payment{
+    border: 2px solid black;
+    width: 852px;
+    height: 630px;
+    margin-left: 25%;
+    margin-top: 3.5%;
+    border-radius: 10px;
+} */
+
+.cardvisa{
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+/* .innercont{
+    border: 1px solid rgb(241, 244, 252);
+    height: 300px;
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 10px;
+    background-color: rgb(241, 244, 252);
+    margin-top: 30px;
+
+} */
+
+.card-input-1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 280px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.date-input-2{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 280px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+
+.cta2-text-4{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+.cta2-text-5{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.card-date{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+}
+
+.holder-input-1{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 280px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+.cvc-input-2{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Plus Jakarta Sans;
+    width: 280px;
+    background: rgba(246, 247, 249, 1);
+    margin-top: 18px;
+
+}
+
+.paypal-cont{
+    border: 1px solid rgb(241, 244, 252);
+    margin-left: 24px;
+    margin-right: 24px;
+    border-radius: 10px;
+    height: 56px;
+    background-color: rgb(241, 244, 252);
+    margin-top: 30px;
+}
+.paypal{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 15px;
+}
+.paynextbtn{
+    border: 2px solid rgba(53, 99, 233, 1);;
+    width: 80px;
+    border-radius: 6px;
+    font-family: Plus Jakarta Sans;
+    cursor: pointer;
+    background-color: rgba(53, 99, 233, 1);
+    margin-top: 10px;
+    margin-left: 87%;
+}
+
+.paybtn-1{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/************************ Confrentel *************************/
+.Confrentel {
+    border: 2px solid black;
+    width: 80%;
+    max-width: 852px;
+    margin: 6% auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.checkbox-1,
+.checkbox-2 {
+    border: 2px solid rgb(241, 244, 252);
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(241, 244, 252);
+    margin-top: 24px;
+    box-sizing: border-box;
+    padding: 2.099%;
+}
+
+/* .checkinput-1,
+.checkinput-2 {
+    margin-left: 24px;
+} */
+
+.rentbtn1 {
+    border: 2px solid rgba(53, 99, 233, 1);
+    width: 140px;
+    height: 56px;
+    background-color: rgba(53, 99, 233, 1);
+    border-radius: 10px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.sss {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+
+.layerimg {
+    margin-top: 28px;
+}
+
+.cta4-text-1 {
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+}
+
+.cta4-text-2 {
+    font-size: 14px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    color: rgba(144, 163, 191, 1);
+}
+
+.allwe {
+    margin-top: 20px;
+}
+.check-text-1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 16px;
+    /* margin-top: 14px; */
+}
+.check-text-2{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 16px;
+    /* margin-top: 14px; */
+}
+
+.confstep{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+    .Confrentel {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .checkinput-1,
+    .checkinput-2 {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .layerimg {
+        margin-top: 20px;
+    }
+}
+
+/* .Confrentel{
+    border: 2px solid black;
+    width: 852px;
+    height: 454px;
+    margin-left: 25%;
+    margin-top: 6%;
+    border-radius: 10px;
+}
+
+.check-text-1{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.check-text-2{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.checkbox-1{
+    border: 2px solid rgb(241, 244, 252);
+    height: 56px;
+    width: 804px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 24px;
+    background-color: rgb(241, 244, 252);
+
+}
+.checkbox-2{
+    border: 2px solid rgb(241, 244, 252);
+    height: 56px;
+    width: 804px;
+    display: flex;
+    border-radius: 10px;
+    margin-left: 24px;
+    background-color: rgb(241, 244, 252);
+    margin-top: 24px;
+}
+.checkinput-1{
+    margin-left: 24px;
+}
+
+.checkinput-2{
+    margin-left: 24px;
+}
+
+.checkboxes{
+    margin-top: 35px;
+}
+
+.rentbtn1{
+    border: 2px solid rgba(53, 99, 233, 1);
+    width: 140px;
+    height: 56px;
+    background-color: rgba(53, 99, 233, 1);
+    border-radius: 10px;
+    margin-left: 24px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+.sss{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin-top: 15px;
+    margin-left: 27px;
+}
+
+.layerimg{
+    margin-left: 24px;
+    margin-top: 28px;
+}
+
+.cta4-text-1{
+    font-size: 20px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+}
+.cta4-text-2{
+    font-size: 14px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 500;
+    color:rgba(144, 163, 191, 1);
+}
+
+.allwe{
+    margin-left: 24px;
+} */
+
+
+/* for Responsive */
+/* ******************Rent *****************/
+
+.container-1 {
+    box-shadow: 10px 10px 20px 0px rgba(112, 110, 110, 0.75);
+    border: 2px solid rgb(232, 231, 231);
+    height: auto;
+    width: 80%; /* Adjusted for responsiveness */
+    max-width: 500px; /* Set a maximum width */
+    margin: 5% auto; /* Center the container */
+    border-radius: 10px;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+/* Add a media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .container-1 {
+        width: 90%; /* Adjusted for smaller screens */
+    }
+}
+@media screen and (max-width: 549px){
+    .container-1 {
+        width: 85%;
+    }
+}
+@media screen and (max-width: 452px){
+    .cta-text-2{
+        font-size: 20px;
+    }
+    .pricetext{
+        font-size: 25px;
+    }
+    .textstar{
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 452px){
+    .starimg{
+        height: 16px;
+        margin-top: 4px;
+    }
+    .cta-tect-3{
+        font-size: 13px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 394px){
+    .startxt{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 394px){
+    .renteltext{
+        font-size: 18px;
+        margin-top: 3px;
+    }
+    .pricetext{
+        font-size: 22px;
+    }
+    .container-1 {
+        width: 79%;
+    }
+}
+
+@media screen and (max-width: 371px){
+    .textpara{
+        margin-left: 6px;
+    }
+    .logotext{
+        margin-left: 6px;
+    }
+    .totaltax{
+        margin-left: 6px;
+    }
+    .promoapply{
+        margin-left: 6px;
+    }
+    .rentel-price{
+        margin-left: 6px;
+    }
+}
+@media screen and (max-width: 347px){
+    .logotext{
+        display: inline;
+    }
+    .gtr{
+        margin-top: 20px;
+       
+    }
+}
+@media screen and (max-width: 343px){
+    .renteltext{
+        font-size: 16px;
+    }
+    .pricetext{
+        font-size: 20px;
+    }
+}
+
+
+/* billing */
+
+@media screen and (max-width: 1023px){
+    .input-1{
+        width: 160%;
+    }
+    .input-3{
+        width: 160%;
+    }
+    .input-2{
+        width: 300px;
+        
+    }
+    .input-4{
+        width: 300px;
+    }
+    
+    
+}
+@media screen and (max-width: 874px){
+    .input-1{
+        width: 135%;
+    }
+    .input-3{
+        width: 135%;
+    }
+    .input-2{
+        width: 250px;
+        
+    }
+    .input-4{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 757px){
+    .namenum{
+        display: inline;
+    }
+    .addresstown{
+        display: inline;
+    }
+    .input-1{
+        width: 55%;
+    }
+    .input-2{
+        width: 55%;
+    }
+    .input-3{
+        width: 55%;
+    }
+    .input-4{
+        width: 55%;
+    }
+    .name{
+        margin-left: 24px;
+    }
+    .num{
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+    .adress{
+        margin-left: 24px;
+    }
+    .town{
+        margin-left: 24px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 490px){
+    .input-1{
+        width: 80%;
+    }
+    .input-2{
+        width: 80%;
+    }
+    .input-3{
+        width: 80%;
+    }
+    .input-4{
+        width: 80%;
+    }
+    .billstep{
+        margin-left:0px;
+    }
+    .billenter{
+        margin-left:0px; 
+    }
+    .name{
+        margin-left: 10px;
+    }
+    .num{
+        margin-left: 10px;
+    }
+    .adress{
+        margin-left: 10px;
+    }
+    .town{
+        margin-left: 10px;
+    }
+    .step{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    .cta2-text-2{
+        font-size: 12px;
+    }
+    .btns{
+        margin-left: 7px;
+    }
+}
+/* Add a media query for smaller screens */
+@media screen and (max-width: 600px) {
+    .Rinfo {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .billsection {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 941px){
+    .dateset{
+        display: flex;
+        flex-direction: column;
+    }
+    .locationdate{
+        display: flex;
+        flex-direction: column;
+    }
+    .Rdate{
+        margin-top: 20px;
+    }
+    .nddate{
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 503px){
+    .infonextbtn{
+        margin-left: auto;
+    }
+    .Step2of4{
+        font-size: 11px;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width: 430px){
+    .cityinput-1{
+        width: 100%;
+    }
+    .dateinput-1{
+        width: 100%;
+    }
+    .timeinput{
+        width: 93%;
+    }
+    .cityinput-2{
+        width: 100%;
+    }
+    .dateinput-2{
+        width: 100%;
+    }
+    .timeinput-332{
+        width: 93%;
+    }
+}
+
+
+/* *************payment***************** */
+
+
+.payment {
+    border: 2px solid black;
+    width: 80%;
+    max-width: 852px;
+    height: auto;
+    margin: 3.5% auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Add a media query for smaller screens */
+
+/* @media screen and (max-width: 600px) {
+    .payment {
+        width: 90%;
+    }
+    
+} */
+
+
+
+
+/* Your existing styles remain unchanged below this point */
+
+/* ... rest of your CSS code ... */
+.innercont {
+    border: 1px solid rgb(241, 244, 252);
+    margin: 30px 24px;
+    border-radius: 10px;
+    background-color: rgb(241, 244, 252);
+    padding: 20px;
+}
+
+@media screen and (max-width: 964px) {
+    .card-date{
+        display: inline;
+    }
+    .innercont {
+        height: auto;
+    }
+    .card-01{
+        margin-left: 4%;
+    }
+    .date-01{
+        margin-left: 4%;
+        margin-top: 15px;
+    }
+    .holder-01{
+        margin-left: 4%;
+    }
+    .CVC-01{
+        margin-left: 4%;
+        margin-top: 15px;
+    }
+    .paynextbtn{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 469px){
+    .innercont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .paypal-cont{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .step3{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cardvisa{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .visaimg{
+        height: 16px;
+        margin-top: 2px;
+    }
+    .paypalimg{
+        height: 19px;
+        margin-top: 2px;
+    }
+    .bitcoinimg{
+        height: 16px;
+        margin-top: 2px;
+    }
+    .card-input-1{
+        width: 70%;
+    }
+    .date-input-2{
+        width: 70%;
+    }
+    .holder-input-1{
+        width: 70%;
+    }
+    .cvc-input-2{
+        width: 70%;
+    }
+    .step3{
+        font-size: 12px;
+        margin-top: 2px;
+    }
+    .billstep{
+        margin-right: auto;
+    }
+}
+
+
+/* **********************conf********************** */
+
+@media screen and (max-width: 866px){
+    .check-text-1{
+        font-size: 15px;
+        /* margin-top: 16px; */
+    }
+    .check-text-2{
+        font-size: 15px;
+        /* margin-top: 16px; */
+    }
+   
+}
+
+@media screen and (max-width: 760px){
+    .step4of4{
+        font-size: 13px;
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width: 684px){
+    .confstep{
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 490px){
+    .step4of4{
+        font-size: 11.6px;
+    }
+    .allwe{
+        margin-top: 8px;
+    }
+    .cta4-text-2{
+        font-size: 13px;
+    }
+    .rentbtn1{
+        height: 45px;
+        width:110px;
+    }
+    .sss{
+        font-size:18px;
+        margin-top: 12px;
+        margin-left: 17px;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .cta4-text-1{
+        font-size: 18px;
+    }
+    .check-text-1{
+        font-size: 15px;
+    }
+    .check-text-2{
+        font-size: 14.9px;
+    }
+}
+
+@media screen and (max-width: 355px){
+    .check-text-1{
+        font-size: 14.9px;
+    }
+    .check-text-2{
+        font-size: 14.9px;
+    }
+}
